@@ -1,0 +1,13 @@
+#formulaire{
+	background-color: red;
+	width: 200px;
+	height: 180px;
+	
+	margin: auto;
+	text-align: center;
+	/**/
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+}

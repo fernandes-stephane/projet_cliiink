@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="formulaire.css">
+		<title>formulaire</title>
+	</head>
+	
+	<body>
+
+		<!-- Exemple de formulaire simple -->
+		<form method="post" action="" id="formulaire">
+			<p class="formulaire"><input type="text" name="pseudo"></p>			
+		</form>
+
+		<!-- Premier formulaire -->
+		<form method="post" action="" id="first">
+    		<p>
+		        <label for="ville1">Entrez votre ville :</label>
+		        <input type="text" name="ville1" id="ville1" placeholder="Cannes" size="30" maxlength="10" />
+    		</p>
+		</form>
+
+		<!-- Deuxieme formulaire -->
+		<form method="post" action="" id="second">
+			<fieldset>
+				<legend>Questionnaire</legend><!-- Titre du fieldset -->
+				<label for="ville2">Entrez votre type :</label>
+				<input type="text" name="ville2" id="ville2" placeholder="Cannes">
+			</fieldset>
+		</form>
+
+		<!-- Exemple de formulaire complexe -->
+		<form method="post" action="" id="fieldset">
+
+			<fieldset id="profil">
+				<legend>Profil</legend><!-- Titre du fieldset -->
+
+				<label for="nom2">Entrez nom :</label><br />
+				<input type="text" name="nom2" id="nom2" /><br />
+
+				<label for="prenom2">Entrez prenom :</label><br />
+				<input type="text" name="prenom2" id="prenom2" /><br />
+
+				<label for="tel2">Entrez tel :</label><br />
+				<input type="tel" name="tel2" id="tel2" />
+
+				<input type="submit" value="Envoyer" name="envoyer">
+			</fieldset>
+
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
