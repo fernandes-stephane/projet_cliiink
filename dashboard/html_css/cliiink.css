@@ -71,8 +71,14 @@ h1{
 }
 
 #graphique{
+	
+
 	display: flex;
-    justify-content: space-between;
+    
+    justify-content: space-around;
+
+    /*
+	*/
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin: 10px;
@@ -110,13 +116,64 @@ img{
 }
 
 #graph_2{
-	display: flex;
+	/*display: flex;*/
 	flex-direction: column;
 }
 
 #graph_2 div{
-	display: flex;
+	/*display: flex;*/
 }
+
+
+#titre_carte{
+
+	/*
+	background-color: purple;
+	font-size: 2.2em;
+	text-decoration: underline;
+	text-shadow: 2px 2px 4px black;
+	margin: lef
+	*/
+
+	font-size: 2.2em;
+	text-decoration: underline;
+	text-shadow: 2px 2px 4px black;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 80%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	border-top: 10px rgb(193, 195, 191) solid;
+	border-bottom: 10px rgb(193, 195, 191) solid;
+}
+
+
+#carteCACPL{
+
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+
+}
+
+#boutton_carte{
+
+	background-color: rgb(164, 151, 149);
+	color: white;
+	margin: 20px;
+	padding: 5px;
+	width: 100px; 
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px rgb(193, 195, 191) solid;
+}
+
+
+
 
 footer{
 	background-color: rgb(164, 151, 149);
