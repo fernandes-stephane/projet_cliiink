@@ -1,0 +1,406 @@
+html, body{
+	/*font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	background: radial-gradient(
+    rgba(85, 183, 148, 0.5),
+    rgba(85, 183, 148, 1)
+    );, url(image_clink.jpg)
+
+	--> green_color: rgba(85, 183, 148, 1)
+    */
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+	font-size: 14px;
+	color: white;
+	direction: ltr;
+    margin: 0;
+    padding: 0;
+
+}
+
+#en_tete{
+
+	display: flex;
+	justify-content: space-between;
+	padding-left: 1.5%;
+	height: 10px;
+}
+
+#titre{
+	height: 100px;
+}
+
+h1{
+	margin: auto;
+	margin-bottom: 3px;
+	font-size: 2.7em;
+	text-shadow: 3px 1.5px 1px green;
+/*	text-shadow: 2px 2px 4px rgb(164, 151, 149);
+		 !!couleur gris ombre titre!!
+text-shadow: 2px 2px 4px black;*/
+}
+
+#first{	
+	/*font-size: 1.1em;
+	margin-left: 40px;*/
+	text-align: center;
+}
+
+header{	flex: 1;
+	font-size: 0.9em 
+}
+
+#logos{
+	display: flex;
+	max-height: 41px;
+	background-color: rgba(85, 183, 148, 1);
+	margin-top: 0px;
+	margin-left: 7%;
+	border-radius: 0px 0px 0px 7px;
+	list-style-type: none;
+}
+
+#titre_cliiink{
+	align-self: center;
+	font-size: 1.2em;
+}
+
+#logo_cliiink{ 
+	align-self: center;
+	flex: 1;
+}
+
+#head_user{	display: flex; }
+
+#logo_user{
+	background-image: url(../graphs_et_images/user2.png);
+	background-repeat: no-repeat;	
+	height: 35px;
+	width: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+#first p{
+	margin: auto;
+}
+
+#texte_intro{
+	margin: auto;
+	font-size: 1.1em;
+	display: flex;
+	flex-direction: column;
+	max-width: 75%;
+	/*margin-bottom: 80px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border-bottom: 6px rgba(85, 183, 148, 1) solid;
+	/*
+	border-top: 10px rgb(193, 195, 191) solid;
+	border-bottom: 10px rgb(193, 195, 191) solid;
+	*/
+}
+
+#texte_intro h2{
+	margin: auto;
+	padding-left: 40%;
+	font-size: 1.7em;
+	text-decoration: underline;
+		text-shadow: 1.5px 1.5px 1px green;
+	padding-top: 35px;
+	padding-bottom: 0.5%;
+}
+
+#texte_intro p{
+	margin: auto;
+	margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dashboard{
+	/*background-color: orange;*/	
+
+
+
+
+
+
+
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+
+
+
+#graphique{
+	/*background-color: red;*/
+
+
+
+
+
+	
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+
+
+
+}
+
+#graphique p{
+
+
+
+
+	text-align: center;
+
+
+
+
+
+}
+
+#graphique img{
+	/*background-color: white;*/
+
+
+
+
+	min-width: 500px;
+	max-height: 280px;
+
+
+}
+
+
+
+#graph_1{
+	/*background-color: blue;*/
+
+
+
+	max-width: 50%;
+	display: flex;
+
+	margin: 0px;
+
+
+
+	
+}
+
+#graph_1 p{
+	/*background-color: grey;*/
+
+
+	font-size: 1.1em;
+	text-align: center;
+	max-height: 200px;
+	max-width: 330px;
+
+	position: relative;
+
+	right:  100px;
+	top: 40px;
+}
+
+#graph_1 strong{
+	font-size: 2em;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+/* fonctionne seulement si .effet_1 est frere de effet_12*/
+.effet_1:hover ~ .effet_12{
+
+	background-color: rgb(193, 195, 191);
+	border-radius: 10px;
+	border: 1px rgb(164, 151, 149) solid;
+    box-shadow: 3px 3px 3px rgb(164, 151, 149);
+}
+
+#graph_2{
+	/*background-color: green;*/
+
+	max-height: 300px;
+
+
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+}
+
+#graph_2 p{
+	/*display: flex;*/
+
+	max-width: 80%;
+	margin-left: 10px;
+
+
+
+
+}
+
+
+
+
+
+
+#graphique_2{
+
+	/*background-color: red;*/
+
+
+
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	
+}
+
+
+
+#carteCACPL{
+	/*background-color: orange;*/
+
+
+	width: 50%
+	max-width: 50%;
+	margin-top: 5px;
+	margin-right: 12px;
+
+	align-items: flex-end;
+	flex-direction: column;
+	display: flex;
+
+}
+
+#boutton_carte{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	align-self: center;
+
+	text-shadow: 2.3px 2.3px 2px black;
+
+	background-color: rgb(85, 183, 148, 1);
+	color: white;
+
+	margin: 5px;
+	margin-left: 120px;
+	padding: 2px;
+	padding-top: 0px;
+	
+
+
+	border-radius: 5px;
+	border: 1px rgb(193, 195, 191) solid
+	/*border: 1px rgba(85, 183, 148, 1) solid;;*/
+	
+}
+
+
+
+
+
+
+
+
+
+#graph_l{
+	/*background-color: orange;*/
+
+
+
+	margin-right: 50px;
+	border-top: 6px rgba(85, 183, 148, 1) solid;
+
+
+}
+
+
+
+
+
+#graph_carte{
+
+
+	/*background-color: purple;*/
+
+
+	display: flex;
+	margin: auto;
+	max-height: 330px;
+	max-width: 80%;
+
+	margin-top: 0;
+	padding: 10px;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+#boutton_carte:hover{
+	background-color: rgb(193, 195, 191);
+	border: 1px rgba(85, 183, 148, 1) solid;
+}
+
+
+
+footer{
+	background-color: rgba(85, 183, 148, 1);
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 5px;
+
+}
+
+footer p{
+	margin: 10px;
+}
+
+#fin{
+	flex: 1;
+	margin-left: 30px;
+}

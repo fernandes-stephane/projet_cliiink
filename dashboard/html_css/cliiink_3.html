@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="cliiink_3.css">
+		<title>Cliink</title>
+	</head>
+	
+	<body>
+
+		<div id="en_tete">
+
+				
+
+				<div id="titre">
+					<h1>Tableau de bord</h1>
+				
+					
+					<form method="post" action="" id="first">
+			    		<p>
+					        <label for="ville1">Entrez votre ville :</label>
+					        <input type="text" name="ville1" id="ville1" placeholder="ex: Cannes" size="17" maxlength="10" />
+			    		</p>
+					</form>
+				</div>
+
+
+
+
+
+				<header>
+					<ul id="logos">
+						<li><p id="titre_cliiink">PROJET_</p></li>
+						<li id="logo_cliiink"><img src="../graphs_et_images/image_clink2.jpg"></li>
+						<div id="head_user">
+							<li id="identifiant"><p>{{config["user_name"]}}</p></li>
+							<li id="logo_user"></li>
+						</div>
+					</ul>
+				</header>
+
+
+		</div>		
+		
+
+		<div id="texte_intro">
+			
+			<h2>Texte d'introduction:</h2>
+			<p>hjsbdhgsbdv hvdshqvc hvcnb hjhqsc cvgcnq c,hc qshvcjh cbvhdjcv</p>
+		</div>
+
+
+
+		
+
+
+		<div id="dashboard">
+
+
+
+
+
+
+			<div id="graphique">
+				<div id="graph_1">
+					<img class="effet_1" src="../graphs_et_images/graph_2.png" alt="graph_1">
+					<p>Descriptiondugraph principal Description du graph principal Description du graph principal<br /><strong>AstucePourGagnerDeLaPlace</strong></p>				
+				</div>
+
+
+				<div id="graph_2">
+					<div>
+						<!----><a class="effet_1" href="../graphs_et_images/graph_3.png">
+						<img  src="../graphs_et_images/graph_3.png" alt="graph_1"></a>
+						<p class="effet_12">Description du deuxieme graph</p>
+					</div>
+
+				</div>	
+			</div>
+
+
+
+
+			
+			<div id="graphique_2">
+				<div id="carteCACPL">
+					<embed type="text/html" src="carteCACPL.html" width="510" height="290">
+					<a id="boutton_carte" href="carteCACPL.html">Carte des Collecteurs:</a>
+				</div>
+				<div id="graph_l">
+					<p id="graph_carte"><img src="../graphs_et_images/graph_1.png" alt="graph_1"></p>
+				</div>
+			</div>
+					<!--
+					<div>
+						<img class="effet_1" src="graph_1.png" alt="graph_1">
+						<p class="effet_12">Description du dernier graph, conculsion et bla bla</p>
+					
+					</div>
+					-->
+
+
+		</div>
+			
+		
+
+		<footer>				
+			<p id="fin">Se documument a été édité le:<br />{{ time_stamp }}</p>
+			<p>Avec la participation de:</p>
+			<p><strong>JACQUEMIN</strong> Anthony<br /><strong>Clave</strong> Lukas<br /><strong>FERNANDES</strong> Stephane<br /><strong>BOUHARAOUI</strong> Tarek</p>
+		</footer>
+	</body>
+
+</html>
